@@ -1,4 +1,4 @@
-from table_data_gateway.db import db
+from patterns.table_data_gateway.db import db
 
 class PersonGateway(object):
     @staticmethod
