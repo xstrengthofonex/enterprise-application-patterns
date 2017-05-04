@@ -101,3 +101,4 @@ ENV/
 *.iml
 out
 gen
+!/patterns/
