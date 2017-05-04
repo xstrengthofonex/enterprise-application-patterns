@@ -45,6 +45,6 @@ class PersonGateway(object):
 
     @staticmethod
     def delete(id):
-        sql = "DELETE FROM person WHERE id=:d"
+        sql = "DELETE FROM person WHERE id=:id"
         with db.connect() as conn:
             conn.execute(sql, {'id': id})

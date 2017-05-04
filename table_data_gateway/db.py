@@ -12,7 +12,7 @@ class DB(object):
 
     def connect(self):
         conn = self.dbapi.connect(self.database_url, **self.params)
-        # conn.row_factory = sqlite3.Row
+        conn.row_factory = sqlite3.Row
         return conn
 
 db = DB(DATABASE_URL)
