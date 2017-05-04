@@ -1,4 +1,4 @@
-from patterns.table_data_gateway.db import db
+from patterns.row_data_gateway.db import db
 
 create_person_table = """\
 CREATE TABLE IF NOT EXISTS person (
