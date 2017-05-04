@@ -19,3 +19,4 @@ def upgrade():
 def downgrade():
     with db.connect() as conn:
         conn.execute(drop_person_table)
+
